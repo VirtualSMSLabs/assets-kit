@@ -8,7 +8,7 @@ There are three ways to use these assets:
 
 1. **Direct link** — Reference files directly from this repository:
    ```
-   https://github.com/VirtualSMSLabs/assets-kit/blob/main/app_logos/wa.webp
+   https://raw.githubusercontent.com/VirtualSMSLabs/assets-kit/refs/heads/main/app_logos/wa.webp
    ```
 2. **Download** — Grab the zip bundles from the [latest release](https://github.com/VirtualSMSLabs/assets-kit/releases):
    - `app_logos.zip` — all service logos
@@ -31,9 +31,9 @@ Country flags keyed by their country code (e.g., `ar.webp` for Argentina, `us.we
 
 A `coming_soon.webp` placeholder is included in `app_logos/`. Use it as a fallback image for services that do not yet have a dedicated logo:
 
-```
-/assets/app_logos/coming_soon.webp
-```
+   ```
+   https://raw.githubusercontent.com/VirtualSMSLabs/assets-kit/refs/heads/main/app_logos/coming_soon.webp
+   ```
 
 ## Usage Example
 
@@ -64,8 +64,8 @@ Response:
 Use the returned `code` (the `standardCode`) to build the logo path:
 
 ```
-/assets/app_logos/tg.webp   → Telegram
-/assets/app_logos/wa.webp   → WhatsApp
+https://raw.githubusercontent.com/VirtualSMSLabs/assets-kit/refs/heads/main/app_logos/tg.webp   → Telegram
+https://raw.githubusercontent.com/VirtualSMSLabs/assets-kit/refs/heads/main/app_logos/wa.webp   → WhatsApp
 ```
 
 All images are in `.webp` format.
