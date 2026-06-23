@@ -1,0 +1,24 @@
+name: assets-kit
+title: Assets Kit
+description: Ready-to-use service logos and country flag assets for the virtualsms.de API
+tagline: Service logos and country flags for virtualsms.de integrations
+
+# Assets Kit
+
+Ready-to-use image assets for applications integrating with the [virtualsms.de](https://virtualsms.de) API.
+
+## What's Included
+
+| Asset | Count | Format |
+|-------|-------|--------|
+| Service logos (`app_logos/`) | 281 | `.webp` |
+| Country flags (`country_flags/`) | 271 | `.webp` |
+
+## Quick Start
+
+```html
+<img src="https://raw.githubusercontent.com/VirtualSMSLabs/assets-kit/main/app_logos/wa.webp" alt="WhatsApp">
+<img src="https://raw.githubusercontent.com/VirtualSMSLabs/assets-kit/main/country_flags/ar.webp" alt="Argentina">
+```
+
+See the [README](README.md) for full usage instructions.

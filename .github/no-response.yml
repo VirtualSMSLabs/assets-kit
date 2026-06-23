@@ -1,0 +1,10 @@
+# Number of days of inactivity before an issue is closed for lack of response
+daysUntilClose: 14
+# Label requiring a response from the original poster
+requiresReproductionFrom: author
+# Label to use when an issue is awaiting response
+responseRequiredLabel: needs-response
+
+markComment: >
+  This issue has been awaiting a response from the author for over 14 days.
+  Closing due to inactivity. Feel free to reopen with the requested information.

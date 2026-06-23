@@ -1,0 +1,21 @@
+# Dependencies
+*.zip
+*.tar.gz
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.tmp
+*.bak
+*.log
