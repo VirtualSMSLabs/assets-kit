@@ -21,7 +21,7 @@ There are three ways to use these assets:
 
 Service logos keyed by the `standardCode` from the virtualsms.de API. Each file is named `{standardCode}.webp` (e.g., `wa.webp` for WhatsApp, `tg.webp` for Telegram).
 
-**Coverage:** 280 of 2,034 services (13.8%) currently have logos. We are actively working to provide logos for the remaining services.
+**Coverage:** 1,052 of 2,034 services (51.7%) currently have logos. We are actively working to provide logos for the remaining services.
 
 ### `country_flags/`
 
